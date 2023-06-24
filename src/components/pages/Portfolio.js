@@ -1,59 +1,64 @@
-import Project from "../Project";
-// import BiteBuddies from "../../assets/images/bbuddies.png";
-// import Campricorn from "../../assets/images/campricorn-stars.png";
-// import GoldenGirls from "../../assets/images/golden-girls.png";
-// import Concert from "../../assets/images/concert.JPG";
-// import Park from "../../assets/images/park.JPG";
-// import Trail from "../../assets/images/trail.JPG";
+import React from 'react';
+import jpQuiz from "../../assets/images/jp-quiz.png"
+import scraggily from "../../assets/images/scraggily-pets.png";
+import onlyHands from "../../assets/images/only-hands.png";
+import expressNotes from "../../assets/images/express-note-taker.png";
+import graphBooks from "../../assets/images/graphql-books.png";
+import weather from "../../assets/images/weather-api.png";
+import "../../styling/PortfolioPage.css";
 
-export default function Portfolio(props) {
-    return (
-        <div className="container portfolio">
-            <div className="row">
-                <h2>My Work</h2>
-                <Project 
-                    title="Campricorn"
-                    tech="APIs"
-                    image={"Campricorn"}
-                    link="https://aerostokes.github.io/camping-starcharts/"
-                    github="https://github.com/aerostokes/camping-starcharts"
-                />
-                <Project 
-                    title="Golden Girls Quiz"
-                    tech="JavaScript"
-                    image={"GoldenGirls"}
-                    link="https://anjaliroland.github.io/M4-WebAPIs-Quiz/"
-                    github="https://github.com/anjaliroland/M4-WebAPIs-Quiz"
-                />
-                <Project 
-                    title="Live Tonight"
-                    tech="Node / Express"
-                    image={"Concert"}
-                    link="https://www.google.com/"
-                    github="https://github.com/anjaliroland"
-                />
-                <Project 
-                    title="Bite Buddies"
-                    tech="Handlebars / SQL"
-                    image={"BiteBuddies"}
-                    link="https://bite-buddies.herokuapp.com/"
-                    github="https://github.com/bear-muna/bite-buddies"
-                />
-                <Project 
-                    title="Trail Buddy"
-                    tech="React / JavaScript"
-                    image={"Trail"}
-                    link="https://www.google.com/"
-                    github="https://github.com/anjaliroland"
-                />
-                <Project 
-                    title="Park + Play"
-                    tech="APIs / CSS"
-                    image={"Park"}
-                    link="https://www.google.com/"
-                    github="https://github.com/anjaliroland"
-                />
-            </div>
-        </div>
-    )
+export default function Projects() {
+  const styles = {
+    img: {
+      width: "300px",
+      height: "300px",
+    },
+    box: {
+      display: "flex",
+      justifyContent: "space-between",
+    },
+  };
+
+  return (
+    <div>
+      <div style={styles.box}>
+        <a href="https://stasiadiamond.github.io/jurassic-park-timed-quiz-04/" target="_blank" rel="noopener noreferrer">
+          <div id="work-div">
+            <img style={styles.img} src={jpQuiz} alt="jp-quiz screenshot" />
+            <p className="corner text-left">Jurassic Park Quiz</p>
+          </div>
+        </a>
+        <a href="https://stasiadiamond.github.io/scraggily-pets/" target="_blank" rel="noopener noreferrer">
+          <div className="box-1">
+            <img style={styles.img} src={scraggily} alt="scraggily-pets screenshot" />
+            <p className="corner text-left">Scraggily Pets</p>
+          </div>
+        </a>
+        <a href="https://only-hands.netlify.app" target="_blank" rel="noopener noreferrer">
+          <div className="box-1">
+            <img style={styles.img} src={onlyHands} alt="only-hands screenshot" />
+            <p className="corner text-left">Only Hands</p>
+          </div>
+        </a>
+        <a href="https://infinite-reef-61323.herokuapp.com" target="_blank" rel="noopener noreferrer">
+          <div className="box-1">
+            <img style={styles.img} src={expressNotes} alt="expressNotes screenshot" />
+            <p className="corner text-left">Express Note Taker</p>
+          </div>
+        </a>
+        <a href="https://boiling-ocean-90033-b0a098801dc7.herokuapp.com" target="_blank" rel="noopener noreferrer">
+          <div className="box-1">
+            <img style={styles.img} src={graphBooks} alt="graph-books screenshot" />
+            <p className="corner text-left">GraphQL Book Search</p>
+          </div>
+        </a>
+        <a href="https://stasiadiamond.github.io/weather-forecast-06/" target="_blank" rel="noopener noreferrer">
+          <div className="box-1">
+            <img style={styles.img} src={weather} alt="weather-api" />
+            <p className="corner text-left">Weather API</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  );
 }

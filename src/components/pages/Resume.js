@@ -2,6 +2,7 @@ import React from "react";
 // import resume from "../../assets/files/Resume-Anjali-Roland.pdf";
 // import download from "../../assets/images/download.png";
 // import "../../styles/Resume.css";
+import "../../styling/ResumePage.css";
 
 export default function Resume() {
     return (
