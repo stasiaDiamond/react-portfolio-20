@@ -1,24 +1,36 @@
-.contact-form {
+main {
+  margin-top: 100px;
+}
+
+.contact-form form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 10px;
-  text-align: center;
+  margin-top: 30px;
 }
 
-.contact-heading {
-  margin-top: 120px;
-  font-size: 50px;
+.contact-form label {
+  margin-top: 10px;
 }
 
-.email-heading {
-  margin-top: 150px;
-  font-size: 20px;
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 300px;
+  background-color: rgb(253, 247, 239);
 }
 
-.round-button {
+.contact-form button[type="submit"],
+.email-me button {
+  margin-top: 10px;
   border-radius: 10px;
   padding: 5px 15px;
   font-size: 18px;
+}
+
+
+.email-me {
+  margin-top: 100px;
+  font-size: 15px;
 }

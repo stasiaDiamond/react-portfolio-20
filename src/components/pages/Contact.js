@@ -5,14 +5,30 @@ export default function Contact() {
     return (
         <main>
             <div className="contact-form">
-                <h1 className="contact-heading">*contact form coming soon*</h1>
-                <h2 className="email-heading">
-                    In the meantime...
-                    <br />
-                    <a href="mailto:nsisco@uw.edu">You can email me
-                        <button className="round-button">here!</button></a>
-                </h2>
+                <h1>*contact form under construction*</h1>
+
+                <form>
+                    <label htmlFor="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+
+                    <label htmlFor="email">Email:</label>
+                    <input type="email" id="email" name="email" />
+
+                    <label htmlFor="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div className="email-me">
+                    <h2>
+                        In the meantime...
+                        <a href="mailto:nsisco@uw.edu">you can email me
+                            <button>here!</button></a>
+                    </h2>
+                </div>
             </div>
         </main>
     );
 }
+

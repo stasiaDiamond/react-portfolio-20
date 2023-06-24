@@ -1,9 +1,43 @@
-.resumePge h2,
-.resumePge h3 {
-  color: #ECF3EC;
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.resumePge a {
+.skills-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.skills-row h3 {
+  color: #ECF3EC;
+  margin-right: 10px;
+}
+
+.download-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.download-resume h2 {
+  color: #ECF3EC;
+  text-align: center;
+  /* Align the heading text to the center */
+}
+
+.download-resume .text-center {
+  margin-top: 20px;
+  text-align: center;
+  /* Align the content to the center */
+}
+
+.download-resume a {
   text-decoration: none;
   color: white;
   font-weight: bold;
