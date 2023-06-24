@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-20/static/css/main.7a0bca89.css",
+    "main.js": "/react-portfolio-20/static/js/main.26aa573a.js",
+    "static/media/scraggily-pets.png": "/react-portfolio-20/static/media/scraggily-pets.be1d103ae66cb7e97caa.png",
+    "static/media/only-hands.png": "/react-portfolio-20/static/media/only-hands.00f2f375a2e4ce6d7950.png",
+    "static/media/fake-resume.png": "/react-portfolio-20/static/media/fake-resume.f5513d0e1f0616c0eeda.png",
+    "static/media/profile-pic.jpg": "/react-portfolio-20/static/media/profile-pic.6825f649635f7a35840c.jpg",
+    "static/media/weather-api.png": "/react-portfolio-20/static/media/weather-api.6055a58663dd22006703.png",
+    "static/media/jp-quiz.png": "/react-portfolio-20/static/media/jp-quiz.0324a1167b3b38e44942.png",
+    "static/media/graphql-books.png": "/react-portfolio-20/static/media/graphql-books.5bdc00863032436d27b8.png",
+    "static/media/express-note-taker.png": "/react-portfolio-20/static/media/express-note-taker.bfac727ace0c3426471e.png",
+    "static/media/github.png": "/react-portfolio-20/static/media/github.bc45ee99ee31457ba80a.png",
+    "index.html": "/react-portfolio-20/index.html",
+    "main.7a0bca89.css.map": "/react-portfolio-20/static/css/main.7a0bca89.css.map",
+    "main.26aa573a.js.map": "/react-portfolio-20/static/js/main.26aa573a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a0bca89.css",
+    "static/js/main.26aa573a.js"
+  ]
+}
