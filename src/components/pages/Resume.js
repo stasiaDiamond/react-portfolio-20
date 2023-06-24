@@ -1,5 +1,5 @@
 import React from "react";
-// import resume from "../../assets/files/Resume-Anjali-Roland.pdf";
+// import resume from "../../assets/files/";
 // import download from "../../assets/images/download.png";
 // import "../../styles/Resume.css";
 import "../../styling/ResumePage.css";
@@ -7,7 +7,7 @@ import "../../styling/ResumePage.css";
 export default function Resume() {
     return (
         <main>
-            <div className="resumePge">
+            <div className="resumePage">
                 <h2>Resume</h2>
                 <div className="d-flex align-items-center justify-content-center">
                     <div className="text-center">

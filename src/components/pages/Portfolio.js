@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="main-box">
         <div className="showcase">
           <a href="https://stasiadiamond.github.io/jurassic-park-timed-quiz-04/" target="_blank" rel="noopener noreferrer">
-            <img src={jpQuiz} alt="jp-quiz screenshot" />
+            <img className="showcase-img" src={jpQuiz} alt="jp-quiz screenshot" />
             <div className="surprise">
               <p className="links">
                 <a href="https://stasiadiamond.github.io/jurassic-park-timed-quiz-04/" target="_blank" rel="noopener noreferrer">JP Quiz</a>
@@ -25,7 +25,7 @@ export default function Projects() {
         </div>
         <div className="showcase">
           <a href="https://stasiadiamond.github.io/scraggily-pets/" target="_blank" rel="noopener noreferrer">
-            <img src={scraggily} alt="scraggily-pets screenshot" />
+            <img className="showcase-img" src={scraggily} alt="scraggily-pets screenshot" />
             <div className="surprise">
               <p className="links">
                 <a href="https://stasiadiamond.github.io/scraggily-pets/" target="_blank" rel="noopener noreferrer">Scraggily Pets</a>
@@ -37,7 +37,7 @@ export default function Projects() {
         </div>
         <div className="showcase">
           <a href="https://only-hands.netlify.app" target="_blank" rel="noopener noreferrer">
-            <img src={onlyHands} alt="only-hands screenshot" />
+            <img className="showcase-img" src={onlyHands} alt="only-hands screenshot" />
             <div className="surprise">
               <p className="links">
                 <a href="https://only-hands.netlify.app" target="_blank" rel="noopener noreferrer">Only Hands</a>
@@ -49,7 +49,7 @@ export default function Projects() {
         </div>
         <div className="showcase">
           <a href="https://infinite-reef-61323.herokuapp.com" target="_blank" rel="noopener noreferrer">
-            <img src={expressNotes} alt="expressNotes screenshot" />
+            <img className="showcase-img" src={expressNotes} alt="expressNotes screenshot" />
             <div className="surprise">
               <p className="links">
                 <a href="https://infinite-reef-61323.herokuapp.com" target="_blank" rel="noopener noreferrer">Note Taker</a>
@@ -61,7 +61,7 @@ export default function Projects() {
         </div>
         <div className="showcase">
           <a href="https://boiling-ocean-90033-b0a098801dc7.herokuapp.com" target="_blank" rel="noopener noreferrer">
-            <img src={graphBooks} alt="graph-books screenshot" />
+            <img className="showcase-img" src={graphBooks} alt="graph-books screenshot" />
             <div className="surprise">
               <p className="links">
                 <a href="https://boiling-ocean-90033-b0a098801dc7.herokuapp.com" target="_blank" rel="noopener noreferrer">GraphQL Books</a>
@@ -73,7 +73,7 @@ export default function Projects() {
         </div>
         <div className="showcase">
           <a href="https://stasiadiamond.github.io/weather-forecast-06/" target="_blank" rel="noopener noreferrer">
-            <img src={weather} alt="weather-api" />
+            <img className="showcase-img" src={weather} alt="weather-api" />
             <div className="surprise">
               <p className="links">
                 <a href="https://stasiadiamond.github.io/weather-forecast-06/" target="_blank" rel="noopener noreferrer">Weather Forecast</a>
