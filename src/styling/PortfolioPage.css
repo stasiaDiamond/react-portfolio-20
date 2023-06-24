@@ -1,105 +1,78 @@
-.portfolio h2 {
-  color: #ECF3EC;
+.main-box {
+  font-family: 'Arial', sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  margin-inline: 100px;
 }
 
-.box {
-  font-family: 'Raleway', sans-serif;
-  overflow: hidden;
+.showcase {
+  flex: 0 0 30%;
+  margin: 0px 10px 60px 10px;
   position: relative;
-  margin: 3%;
+  overflow: hidden;
 }
 
-.box img {
+img {
   width: 100%;
   height: auto;
   transition: all 0.5s ease 0s;
   filter: grayscale(100%);
 }
 
-.box:hover img {
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  justify-content: center;
+  margin: 0 10px;
+
+}
+
+.showcase-title {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-box .showcase:hover img {
   transform-origin: center;
   transform: scale(1.1);
   filter: none;
+  border-radius: 10px;
 }
 
-.box .box-content {
-  color: #ECF3EC;
-  background: #828282;
-  text-align: right;
-  padding: 10px 15px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+.main-box .showcase .surprise {
   opacity: 0;
-  transform: skew(15deg);
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 2;
-  transition: all 0.5s ease-out 0s;
+  transform: skew(18deg);
+  transition: all 0.7s ease-out 0s;
 }
 
-.box:hover .box-content {
+.main-box .showcase:hover .surprise {
   opacity: 1;
   transform: skew(0);
+  border-radius: 10px;
 }
 
-.box .title {
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: capitalize;
-  margin: 0 0 3px;
-}
+@media only screen and (max-width: 990px) {
+  .main-box {
+    margin: 0;
+  }
 
-.box .post {
-  color: #ECF3EC;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: capitalize;
-  display: block;
-}
-
-.box .icon {
-  background-color: #ECF3EC;
-  padding: 0 8px;
-  margin: 0;
-  list-style: none;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
-  opacity: 0;
-  transform: skew(15deg);
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  z-index: 2;
-  transition: all 0.5s ease-out 0s;
-}
-
-.box:hover .icon {
-  opacity: 1;
-  transform: skew(0);
-}
-
-.box .icon li {
-  margin: 8px 0;
-}
-
-.box .icon li a {
-  background-color: #828282;
-  font-size: 15px;
-  text-align: center;
-  line-height: 36px;
-  height: 35px;
-  width: 35px;
-  border-radius: 5px;
-  display: block;
-  transition: all 0.3s ease 0s;
-}
-
-.box .icon li a:hover {
-  background-color: #6b9080;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-@media only screen and (max-width:990px) {
-  .box {
-    margin: 0 0 30px;
+  .main-box .showcase {
+    flex-basis: 45%;
   }
 }

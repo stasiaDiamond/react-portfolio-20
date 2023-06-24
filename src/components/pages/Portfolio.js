@@ -8,57 +8,82 @@ import weather from "../../assets/images/weather-api.png";
 import "../../styling/PortfolioPage.css";
 
 export default function Projects() {
-  const styles = {
-    img: {
-      width: "300px",
-      height: "300px",
-    },
-    box: {
-      display: "flex",
-      justifyContent: "space-between",
-    },
-  };
-
   return (
-    <div>
-      <div style={styles.box}>
-        <a href="https://stasiadiamond.github.io/jurassic-park-timed-quiz-04/" target="_blank" rel="noopener noreferrer">
-          <div id="work-div">
-            <img style={styles.img} src={jpQuiz} alt="jp-quiz screenshot" />
-            <p className="corner text-left">Jurassic Park Quiz</p>
-          </div>
-        </a>
-        <a href="https://stasiadiamond.github.io/scraggily-pets/" target="_blank" rel="noopener noreferrer">
-          <div className="box-1">
-            <img style={styles.img} src={scraggily} alt="scraggily-pets screenshot" />
-            <p className="corner text-left">Scraggily Pets</p>
-          </div>
-        </a>
-        <a href="https://only-hands.netlify.app" target="_blank" rel="noopener noreferrer">
-          <div className="box-1">
-            <img style={styles.img} src={onlyHands} alt="only-hands screenshot" />
-            <p className="corner text-left">Only Hands</p>
-          </div>
-        </a>
-        <a href="https://infinite-reef-61323.herokuapp.com" target="_blank" rel="noopener noreferrer">
-          <div className="box-1">
-            <img style={styles.img} src={expressNotes} alt="expressNotes screenshot" />
-            <p className="corner text-left">Express Note Taker</p>
-          </div>
-        </a>
-        <a href="https://boiling-ocean-90033-b0a098801dc7.herokuapp.com" target="_blank" rel="noopener noreferrer">
-          <div className="box-1">
-            <img style={styles.img} src={graphBooks} alt="graph-books screenshot" />
-            <p className="corner text-left">GraphQL Book Search</p>
-          </div>
-        </a>
-        <a href="https://stasiadiamond.github.io/weather-forecast-06/" target="_blank" rel="noopener noreferrer">
-          <div className="box-1">
-            <img style={styles.img} src={weather} alt="weather-api" />
-            <p className="corner text-left">Weather API</p>
-          </div>
-        </a>
+    <main>
+      <div className="main-box">
+        <div className="showcase">
+          <a href="https://stasiadiamond.github.io/jurassic-park-timed-quiz-04/" target="_blank" rel="noopener noreferrer">
+            <img src={jpQuiz} alt="jp-quiz screenshot" />
+            <div className="surprise">
+              <p className="links">
+                <a href="https://stasiadiamond.github.io/jurassic-park-timed-quiz-04/" target="_blank" rel="noopener noreferrer">JP Quiz</a>
+                <span> | </span>
+                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div className="showcase">
+          <a href="https://stasiadiamond.github.io/scraggily-pets/" target="_blank" rel="noopener noreferrer">
+            <img src={scraggily} alt="scraggily-pets screenshot" />
+            <div className="surprise">
+              <p className="links">
+                <a href="https://stasiadiamond.github.io/scraggily-pets/" target="_blank" rel="noopener noreferrer">Scraggily Pets</a>
+                <span> | </span>
+                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div className="showcase">
+          <a href="https://only-hands.netlify.app" target="_blank" rel="noopener noreferrer">
+            <img src={onlyHands} alt="only-hands screenshot" />
+            <div className="surprise">
+              <p className="links">
+                <a href="https://only-hands.netlify.app" target="_blank" rel="noopener noreferrer">Only Hands</a>
+                <span> | </span>
+                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div className="showcase">
+          <a href="https://infinite-reef-61323.herokuapp.com" target="_blank" rel="noopener noreferrer">
+            <img src={expressNotes} alt="expressNotes screenshot" />
+            <div className="surprise">
+              <p className="links">
+                <a href="https://infinite-reef-61323.herokuapp.com" target="_blank" rel="noopener noreferrer">Note Taker</a>
+                <span> | </span>
+                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div className="showcase">
+          <a href="https://boiling-ocean-90033-b0a098801dc7.herokuapp.com" target="_blank" rel="noopener noreferrer">
+            <img src={graphBooks} alt="graph-books screenshot" />
+            <div className="surprise">
+              <p className="links">
+                <a href="https://boiling-ocean-90033-b0a098801dc7.herokuapp.com" target="_blank" rel="noopener noreferrer">GraphQL Books</a>
+                <span> | </span>
+                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div className="showcase">
+          <a href="https://stasiadiamond.github.io/weather-forecast-06/" target="_blank" rel="noopener noreferrer">
+            <img src={weather} alt="weather-api" />
+            <div className="surprise">
+              <p className="links">
+                <a href="https://stasiadiamond.github.io/weather-forecast-06/" target="_blank" rel="noopener noreferrer">Weather Forecast</a>
+                <span> | </span>
+                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+              </p>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
+    </main>
   );
 }
