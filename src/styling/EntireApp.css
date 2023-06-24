@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   background-color: #6b7b69;
-  color: peachpuff;
+  color: rgb(244, 215, 190);
   font-family: Arial, sans-serif;
 }
 
@@ -17,7 +17,7 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #6b7b69;
-  color: peachpuff;
+  color: rgb(244, 215, 190);
   z-index: 999;
 }
 
