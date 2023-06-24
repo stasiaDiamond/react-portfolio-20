@@ -18,7 +18,7 @@ export default function Projects() {
               <p className="links">
                 <a href="https://stasiadiamond.github.io/jurassic-park-timed-quiz-04/" target="_blank" rel="noopener noreferrer">JP Quiz</a>
                 <span> | </span>
-                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="https://github.com/stasiaDiamond/jurassic-park-timed-quiz-04" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
               </p>
             </div>
           </a>
@@ -30,7 +30,7 @@ export default function Projects() {
               <p className="links">
                 <a href="https://stasiadiamond.github.io/scraggily-pets/" target="_blank" rel="noopener noreferrer">Scraggily Pets</a>
                 <span> | </span>
-                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="https://github.com/stasiaDiamond/scraggily-pets" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
               </p>
             </div>
           </a>
@@ -42,7 +42,7 @@ export default function Projects() {
               <p className="links">
                 <a href="https://only-hands.netlify.app" target="_blank" rel="noopener noreferrer">Only Hands</a>
                 <span> | </span>
-                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="https://github.com/stasiaDiamond/oh-front" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
               </p>
             </div>
           </a>
@@ -54,7 +54,7 @@ export default function Projects() {
               <p className="links">
                 <a href="https://infinite-reef-61323.herokuapp.com" target="_blank" rel="noopener noreferrer">Note Taker</a>
                 <span> | </span>
-                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="https://github.com/stasiaDiamond/express-note-taker-11" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
               </p>
             </div>
           </a>
@@ -66,7 +66,7 @@ export default function Projects() {
               <p className="links">
                 <a href="https://boiling-ocean-90033-b0a098801dc7.herokuapp.com" target="_blank" rel="noopener noreferrer">GraphQL Books</a>
                 <span> | </span>
-                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="https://github.com/stasiaDiamond/MERN-book-search-21" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
               </p>
             </div>
           </a>
@@ -78,7 +78,7 @@ export default function Projects() {
               <p className="links">
                 <a href="https://stasiadiamond.github.io/weather-forecast-06/" target="_blank" rel="noopener noreferrer">Weather Forecast</a>
                 <span> | </span>
-                <a href="https://github.com/your-username/your-repo" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="https://github.com/stasiaDiamond/weather-forecast-06" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
               </p>
             </div>
           </a>
