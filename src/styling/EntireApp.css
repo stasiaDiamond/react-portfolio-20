@@ -8,41 +8,41 @@
 }
 
 header {
-  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #6b7b69;
+  color: peachpuff;
+  z-index: 999;
 }
+
 
 header h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: flex-end;
+  font-size: 24px;
 }
 
 .nav-tabs {
-  width: 100%;
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
 }
 
 .nav-item a {
-  color: rgb(253, 247, 239);
-  ;
+  color: #fdf7ef;
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .nav-item a:hover {
-  color: rgb(53, 76, 53);
+  color: #354c35;
 }
 
 main {

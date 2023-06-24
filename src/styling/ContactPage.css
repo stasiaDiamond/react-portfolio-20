@@ -1,3 +1,4 @@
+/* ContactPage.css */
 main {
   margin-top: 100px;
 }
@@ -19,6 +20,7 @@ main {
   padding: 5px;
   width: 300px;
   background-color: rgb(253, 247, 239);
+  color: rgb(70, 40, 40);
 }
 
 .contact-form button[type="submit"],
@@ -28,7 +30,6 @@ main {
   padding: 5px 15px;
   font-size: 18px;
 }
-
 
 .email-me {
   margin-top: 100px;

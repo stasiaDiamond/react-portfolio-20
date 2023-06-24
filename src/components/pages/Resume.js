@@ -12,7 +12,6 @@ export default function Resume() {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
-                        <li>Responsive Design</li>
                         <li>React</li>
                         <li>Bootstrap</li>
                     </ul>
@@ -20,12 +19,12 @@ export default function Resume() {
                 <div className="skills-row">
                     <h3>Back-End Skills</h3>
                     <ul>
-                        <li>APIs</li>
                         <li>Node.js</li>
                         <li>Express</li>
-                        <li>MySql, Sequelize</li>
-                        <li>MongoDB, Mongoose</li>
-                        <li>REST</li>
+                        <li>MySql</li>
+                        <li>Sequelize</li>
+                        <li>MongoDB</li>
+                        <li>Mongoose</li>
                     </ul>
                 </div>
             </div>
